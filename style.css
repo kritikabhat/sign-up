@@ -1,0 +1,68 @@
+@import url(https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold);
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+#container {
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: gray;
+}
+#leftContainer {
+    display: block;
+    width: 35%;
+}
+#mainImage {
+    width: 100%;
+    height: 100%;
+}
+#odinContainer {
+    
+
+}
+#rightContainer {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+}
+#introPara {
+    padding-top: 60px;
+    padding-left: 5%; /* Can we use a unit that would be consistant across all of these?*/
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+#middleSection {
+    background-color: white;
+    padding: 5%;  /*Shadow at bottom of this*/
+}
+#formContainer {
+    
+
+}
+#formContainerDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 30%);
+}
+.inputLabelDiv {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15%;
+    padding-bottom: 10%;
+}
+#bottomContainer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 23%; /* This is what causes height of the entire page to change. This 29% is random, check this in the end*/
+}
+#createAccountBtn {
+    width: 25%;
+}
