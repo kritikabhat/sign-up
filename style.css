@@ -1,6 +1,5 @@
 /*Validations for password and email*/
 /*Validation for password, confirm password*/
-
 body {
     height: 100%;
     width: 100%;
@@ -25,8 +24,8 @@ body {
     position: absolute;
     width: 28vw;
     background-color: rgb(1, 1, 1, 0.4);
-    top: 35vh;
-    bottom:45vh;
+    top: 42vh;
+    bottom:40vh;
     left: 10vw;
 }
 #odinContainer > img[src] {
@@ -34,17 +33,17 @@ body {
     width: auto;
     height: 15vh;
     left: 6vw;;
-    right: 2vw;
-    top: 3vh;
+    right: auto;
+    top: 2vh;
 }
 #odinContainer > div {
     position: absolute;
-    left: 13vw;
-    top: 7vh;
+    left: 13.2vw;
+    top: 5vh;
     color: white;
     font-family:fantasy;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 0.1rem;
 }
 #rightContainer {
@@ -130,5 +129,13 @@ body {
     }
 }
 @media (prefers-color-scheme: dark) {
-    
+    :root {
+        color-scheme: dark;
+    }
+    #introPara, #bottomContainer, #container {
+        background-color: rgb(1, 1, 1);
+    }
+    #middleSection {
+        background-color: 	rgb(52, 52, 52);
+    }
 }
