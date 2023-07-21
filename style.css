@@ -1,5 +1,3 @@
-/*Validations for password and email*/
-/*Validation for password, confirm password*/
 body {
     height: 100%;
     width: 100%;
@@ -115,6 +113,9 @@ body {
     padding: 0.6rem;
     border: none;
 }
+#createAccountBtn:hover {
+    opacity: 0.5;
+}
 [input]:focus {
     border: rgb(0, 71, 171);
 }
@@ -132,8 +133,11 @@ body {
     :root {
         color-scheme: dark;
     }
+    #container {
+        background-color: black !important;
+    }
     #introPara, #bottomContainer, #container {
-        background-color: rgb(1, 1, 1);
+        background-color: rgb(40, 40, 43);
     }
     #middleSection {
         background-color: 	rgb(52, 52, 52);

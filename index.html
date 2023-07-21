@@ -9,15 +9,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-        <!--<link rel="icon" href="" type="image/x-icon">-->
+        <link rel="icon" href="" type="image/x-icon">
     </head>
     <body>
         <div id="container">
             <div id="leftContainer">
-                <img id="mainImage" src="images/halie-west-25xggax4bSA-unsplash.jpg">
+                <img id="mainImage" src="images/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg">
                 <div id="odinContainer">
                     <img  src="images/odin-lined.png">
-                    <div>ODIN</div>
+                    <div>ONE</div>
                 </div>
             </div>
             <div id="rightContainer">
@@ -30,7 +30,7 @@
                         <h3>Let's do this!</h3>
                     </div>
                     <div id="formContainer">
-                        <form action="something.com/something" method="post" id="formContainerDiv">
+                        <form action="#" method="get" id="formContainerDiv">
                             <div class="inputLabelDiv">
                                 <label for="first_name">FIRST NAME</label>
                                 <input type="text" id="first_name">
@@ -40,27 +40,27 @@
                                 <input type="text" id="last_name">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_email">EMAIL</label>
-                                <input type="email" id="user_email">
+                                <label for="user_email">*EMAIL</label>
+                                <input type="email" id="user_email" required>
                             </div>
                             <div class="inputLabelDiv">
                                 <label for="user_phonenumber">PHONE NUMBER</label>
-                                <input type="tel" id="user_phonenumber">
+                                <input type="tel" id="user_phonenumber" pattern="^\+(?:[0-9]●?){6,14}[0-9]$" placeholder="+91 1234567890" title="Please enter country code followed by phone number">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_password">PASSWORD</label>
-                                <input type="password" id="user_password">
+                                <label for="user_password">*PASSWORD</label>
+                                <input type="password" id="user_password" required>
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_confirm_password">CONFIRM PASSWORD</label>
-                                <input type="password" id="user_confirm_password">
+                                <label for="user_confirm_password">*CONFIRM PASSWORD</label>
+                                <input type="password" id="user_confirm_password" required>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div id="bottomContainer">
-                    <button type="submit" id="createAccountBtn">Create Account</button>
-                    <div>Already have an account? <b style="color: rgb(0, 71, 171);"> Log in</b> </div> <!--This login is a link or at least looks like link-->
+                    <button type="submit" form="formContainerDiv" id="createAccountBtn">Create Account</button>
+                    <div>Already have an account? <b style="color: rgb(0, 71, 171);"> Log in</b> </div>
                 </div>
             </div>
         </div>
