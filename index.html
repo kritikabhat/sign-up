@@ -6,6 +6,9 @@
         <meta name="description" content="Simple form">
         <link rel="stylesheet" href="style.css">
         <title>Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
         <!--<link rel="icon" href="" type="image/x-icon">-->
     </head>
     <body>
@@ -21,7 +24,7 @@
             <div id="rightContainer"><!--FlexBox-->
                 <div id="introPara"><!--Probably not a div ultimately, maybe a p tag-->
                     <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-                    <p>You <em>know</em> you want to.</p>
+                    <p>You <b><i>know</i></b> you want to.</p>
                 </div>
                 <div id="middleSection">
                     <div><!--Heading thingy that says Let us do this!-->
@@ -30,27 +33,27 @@
                     <div id="formContainer"><!--form here, use grid 2 colums each on 3 rows-->
                         <form action="something.com/something" method="post" id="formContainerDiv">
                             <div class="inputLabelDiv">
-                                <label for="first_name">First Name:</label>
+                                <label for="first_name">FIRST NAME</label>
                                 <input type="text" id="first_name">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="last_name">Last Name:</label>
+                                <label for="last_name">LAST NAME</label>
                                 <input type="text" id="last_name">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_email">Email:</label>
+                                <label for="user_email">EMAIL</label>
                                 <input type="email" id="user_email">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_phonenumber">Phone Number:</label>
-                                <input type="number" id="user_phonenumber">
+                                <label for="user_phonenumber">PHONE NUMBER</label>
+                                <input type="tel" id="user_phonenumber">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_password">Password:</label>
+                                <label for="user_password">PASSWORD</label>
                                 <input type="password" id="user_password">
                             </div>
                             <div class="inputLabelDiv">
-                                <label for="user_confirm_password">Confirm Password:</label>
+                                <label for="user_confirm_password">CONFIRM PASSWORD</label>
                                 <input type="password" id="user_confirm_password">
                             </div>
                         </form>
@@ -58,7 +61,7 @@
                 </div>
                 <div id="bottomContainer"><!--submit button? here-->
                     <button type="submit" id="createAccountBtn">Create Account</button>
-                    <div>Already have an account? <b>Log in</b></div> <!--This login is a link or at least looks like link-->
+                    <div>Already have an account? <b style="color: rgb(0, 71, 171);"> Log in</b> </div> <!--This login is a link or at least looks like link-->
                 </div>
             </div>
         </div>
