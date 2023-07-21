@@ -119,16 +119,76 @@ body {
 [input]:focus {
     border: rgb(0, 71, 171);
 }
-@media (max-height: 750px), screen and (orientation: portrait) {
+
+@media (max-height: 700px), screen and (orientation: portrait) {
+    #introPara {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        height: 10%;
+        font-size: 1.3rem;
+    }
+    #middleSection {
+        padding-top: 1vh !important;
+        font-size: 2rem;
+        padding-bottom: 0.5vw;
+        font-size: 1.7rem;
+    } 
+    #formContainer {
+        height: 100%;
+    }
+    #formContainerDiv {
+        font-size: 1.3rem;
+        height: 85%;
+        width: 100%;
+    }
+    .inputLabelDiv {
+        width: auto;
+        padding-right: 3vw;
+        padding-bottom: 3vw;
+    }
+    .inputLabelDiv > input {
+        margin-top: 0.5vh;
+        height: 1.3vh;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    #rightContainer {
+        width: auto;
+    }
+    #leftContainer {
+        width: auto;
+        height: 10vh;
+    }
     #odinContainer > div {
-        display: none;
-        width: 0px;
-        visibility: hidden;
+        position: absolute;
+        left: 22vw;
+        top: 3vh;
+        font-size: 5rem;
     }
     #odinContainer > img[src] {
-        left: 2rem;
+        height: 7vh;
     }
-}
+    #odinContainer {
+        top: 0vh;
+        height: 10vh;
+        width: 50vw;
+    }
+    #bottomContainer {
+        height: auto;
+        padding-left: 3vw;
+        padding-top: 4vh;
+        padding-bottom: 70%;
+        font-size: 1.7rem;
+    }
+    #createAccountBtn {
+        font-size: 1.7rem !important;
+        width: 32%;
+        padding: 0.8rem;
+    }
+} 
+
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark;
