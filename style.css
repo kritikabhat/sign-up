@@ -22,8 +22,30 @@ body {
     height: 100%;
 }
 #odinContainer {
-    
-
+    position: absolute;
+    width: 28vw;
+    background-color: rgb(1, 1, 1, 0.4);
+    top: 35vh;
+    bottom:45vh;
+    left: 10vw;
+}
+#odinContainer > img[src] {
+    position: absolute;
+    width: auto;
+    height: 15vh;
+    left: 6vw;;
+    right: 2vw;
+    top: 3vh;
+}
+#odinContainer > div {
+    position: absolute;
+    left: 13vw;
+    top: 7vh;
+    color: white;
+    font-family:fantasy;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
 }
 #rightContainer {
     display: flex;
@@ -45,7 +67,7 @@ body {
 #middleSection {
     height: 26%;
     background-color: white;
-    padding-left: 3vw;  /*Shadow at bottom of this*/
+    padding-left: 3vw;
     padding-top: 1vw;
     padding-bottom: 3vw;
     font-family: 'Roboto', sans-serif;
@@ -96,4 +118,17 @@ body {
 }
 [input]:focus {
     border: rgb(0, 71, 171);
+}
+@media (max-height: 750px), screen and (orientation: portrait) {
+    #odinContainer > div {
+        display: none;
+        width: 0px;
+        visibility: hidden;
+    }
+    #odinContainer > img[src] {
+        left: 2rem;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    
 }
