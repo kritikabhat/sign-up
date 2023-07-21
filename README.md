@@ -41,7 +41,8 @@ This project creates a dummy sign-up home page for a website.
 
 <img src="images/dark-mobile.png" width=40%>
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)]
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 
 ## The below images show the validations in the input form:
 
