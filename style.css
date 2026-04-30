@@ -1,3 +1,7 @@
+@font-face {
+    font-family: norseBold;
+    src: url(fonts/Norsebold.otf);
+}
 body {
     height: 100%;
     width: 100%;
@@ -37,11 +41,11 @@ body {
 #odinContainer > div {
     position: absolute;
     left: 13.2vw;
-    top: 5vh;
+    top: 4vh;
     color: white;
-    font-family:fantasy;
+    font-family: norseBold;
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 7rem;
     letter-spacing: 0.1rem;
 }
 #rightContainer {
@@ -116,8 +120,8 @@ body {
 #createAccountBtn:hover {
     opacity: 0.5;
 }
-[input]:focus {
-    border: rgb(0, 71, 171);
+input[type="password"]:invalid {
+    border-color: red;
 }
 
 @media (max-height: 700px), screen and (orientation: portrait) {
